@@ -1,0 +1,71 @@
+.invoice-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .invoice-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .invoice-form input, .invoice-form select, .invoice-form .date-picker {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .invoice-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .invoice-item input {
+    width: 30%;
+  }
+  
+  .invoice-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .invoice-item button:hover {
+    background-color: darkred;
+  }
+  
+  .invoice-payment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .invoice-payment select, .invoice-payment .date-picker {
+    width: 48%;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .invoice-form button {
+    background-color: #36A2EB;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .invoice-form button:hover {
+    background-color: #2596d1;
+  }
+  
